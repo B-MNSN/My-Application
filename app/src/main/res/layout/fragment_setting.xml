@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:textColor="@color/blue_black"
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/icon_edit"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/blue_black"
+            android:padding="10dp"
+            android:text="@string/edit_profile"
+            android:textColor="@color/blue_black"
+            android:textSize="18dp"
+            android:background="@drawable/line_bottom"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_bottom"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_language"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/blue_black"
+                android:padding="10dp"
+                android:text="@string/language"
+                android:textColor="@color/blue_black"
+                android:textSize="18dp" />
+
+            <ToggleButton
+                android:id="@+id/toggleLang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textOff="EN"
+                android:textOn="TH" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/logout" />
+    </LinearLayout>
+
+
+</FrameLayout>

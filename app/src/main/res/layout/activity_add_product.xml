@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AddProductActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Product"
+        android:textStyle="bold"
+        android:textColor="@color/blue_black"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product name" />
+    <EditText
+        android:id="@+id/edit_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"/>
+    <TextView
+        android:id="@+id/product_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product description" />
+    <EditText
+        android:id="@+id/edit_product_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"/>
+    <TextView
+        android:id="@+id/product_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product category"
+      />
+    <EditText
+        android:id="@+id/edit_product_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product price"
+        />
+    <EditText
+        android:id="@+id/edit_product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:drawableLeft="@drawable/icon_save"
+        android:layout_gravity="end"/>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="setting">SETTING</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="language">Language</string>
+    <string name="logout">logout</string>
+    <string name="selectImg">choose image</string>
+    <string name="register_information">REGISTER INFORMATION</string>
+    <string name="text_prefix">Prefix</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="birthday">Birthday</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="university">University</string>
+    <string name="address">Address</string>
+    <string name="province">Province</string>
+    <string name="postcode">Postcode</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="hobby">Hobby</string>
+    <string name="football">Football</string>
+    <string name="basketball">Basketball</string>
+    <string name="badminton">Badminton</string>
+    <string name="buttonRegister">REGISTER</string>
+    <string name="buttonUpdate">UPDATE</string>
+</resources>

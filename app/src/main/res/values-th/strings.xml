@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">แอพ</string>
+    <string name="setting">ตั้งค่า</string>
+    <string name="edit_profile">แก้ไขโปรไฟล์</string>
+    <string name="language">ภาษา</string>
+    <string name="logout">ออกจากระบบ</string>
+    <string name="selectImg">เลือกรูปภาพ</string>
+    <string name="register_information">ข้อมูลลงทะเบียน</string>
+    <string name="text_prefix">คำนำหน้า</string>
+    <string name="firstname">ชื่อ</string>
+    <string name="lastname">นามสกุล</string>
+    <string name="birthday">วันเกิด</string>
+    <string name="age">อายุ</string>
+    <string name="gender">เพศ</string>
+    <string name="female">หญิง</string>
+    <string name="male">ชาย</string>
+    <string name="university">มหาวิทยาลัย</string>
+    <string name="address">ที่อยู่</string>
+    <string name="province">จังหวัด</string>
+    <string name="postcode">รหัสไปรษณีย์</string>
+    <string name="phone">เบอร์โทรศัพท์</string>
+    <string name="email">อีเมล</string>
+    <string name="txt_password">รหัสผ่าน</string>
+    <string name="hobby">งานอดิเรก</string>
+    <string name="football">ฟุตบอล</string>
+    <string name="basketball">บาสเก็ตบอล</string>
+    <string name="badminton">แบดมินตัน</string>
+    <string name="buttonRegister">ลงทะเบียน</string>
+    <string name="buttonUpdate">อัพเดต</string>
+</resources>

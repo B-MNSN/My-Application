@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_drawer"
+    app:startDestination="@id/menu1">
+    <fragment
+        android:id="@+id/menu1"
+        android:name="com.example.myapplication.Fragment.HomeFragment"
+        android:label="Fragment Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_menu1_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu2"
+        android:name="com.example.myapplication.Fragment.DiscountFragment"
+        android:label="Fragment Discount"
+        tools:layout="@layout/fragment_discount" >
+        <action
+            android:id="@+id/action_menu2_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu3"
+        android:name="com.example.myapplication.Fragment.SettingFragment"
+        android:label="Fragment Setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.myapplication.Fragment.HomeFragment2"
+        android:label="Fragment Home2"
+        tools:layout="@layout/fragment_home2" />
+
+</navigation>
