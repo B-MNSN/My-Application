@@ -46,7 +46,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 
                 checkToken();
             }
-        }, 10*1000);
+        }, 3*1000);
     }
 
 
